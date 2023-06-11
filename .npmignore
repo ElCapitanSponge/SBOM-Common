@@ -1,0 +1,7 @@
+src/
+.env*
+tsconfig.json
+typedoc.json
+releases/
+docs/
+test/

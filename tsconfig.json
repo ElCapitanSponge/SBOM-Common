@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "target": "ES2022",
+        "module": "ES2022",
+        "baseUrl": ".",
+        "strict": true,
+        "paths": {
+            "*": ["node_modules/*"]
+        },
+        "lib": [
+            "ES2022",
+            "dom"
+        ],
+        "resolveJsonModule": true,
+        "noFallthroughCasesInSwitch": true,
+        "sourceMap": true,
+        "declaration": true,
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPointStrategy": "expand",
+    "entryPoints": ["./src"],
+    "name": "SBOM-Common",
+    "includeVersion": true,
+    "readme": "./README.md",
+    "out": "./docs",
+    "excludeExternals": false
+}
